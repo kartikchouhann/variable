@@ -5,7 +5,7 @@ resource "google_compute_instance" "vm" {
 
   boot_disk {
     initialize_params {
-      image = "debian-cloud/debian-9"
+      image = "c0-deeplearning-common-cpu-v20221215-debian-10"
     }
   }
 
