@@ -17,5 +17,5 @@ jobs:
         python-version: 3.7
     
     - run: terraform init
-    - run: terraform apply -auto-approve
+    - run: terraform apply terraform apply -var "MY_VARIABLE=${{ secrets.GCP_SERVICE_ACCESS_TOKEN }}" -auto-approve
 
