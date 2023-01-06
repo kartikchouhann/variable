@@ -1,5 +1,5 @@
 resource "google_compute_instance" "vm" {
-  name         = "my-vm"
+  name         = "my-vvm"
   machine_type = "n1-standard-1"
   zone         = "us-west4-b"
 
